@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import MarketSchedule from './MarketSchedule';
+import AvailableProduce from './AvailableProduce';
 
 function App(){
   return (
@@ -8,6 +9,7 @@ function App(){
       <Header/>
       <div className='row'>
         <MarketSchedule/>
+        <AvailableProduce/>
       </div>
     </div>
   );

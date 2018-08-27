@@ -24,7 +24,7 @@ _Site for farm to share dates for when they will be at local farmer's markets an
 * _There will be a header with farm Name_
 * _There will be a Farmer's Markets Schedule component showing when the farm will be at each market_
 * _There will be a Farmer's Market component for each farmers market_
-* _There will be a month component which will show which crops are available within that month_
+* _There will be a available produce component which will show which crops are available within each month_
 * _There will be a crop schedule which will show all the months with their crops_
 
 ## Known Bugs
