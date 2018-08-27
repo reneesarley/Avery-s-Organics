@@ -272,7 +272,7 @@ const produceSchedule = [
 
 function AvailableProduce(){
   return (
-    <div className='col-6-sm' >
+    <div className='col-sm-6' >
       <h3>Produce Schedule</h3>
       {produceSchedule.map((produceMonth, index) =>
         <Months month={produceMonth.month}
