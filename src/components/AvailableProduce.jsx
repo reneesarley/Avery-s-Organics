@@ -1,5 +1,5 @@
 import React from 'react';
-import Months from './Months'
+import Months from './Months';
 
 const produceSchedule = [
   {
@@ -272,13 +272,13 @@ const produceSchedule = [
 
 function AvailableProduce(){
   return (
-    <div className='col-sm-6' >
+    <div>
       <h3>Produce Schedule</h3>
       {produceSchedule.map((produceMonth, index) =>
         <Months month={produceMonth.month}
           selection={produceMonth.selection}
           key={index}
-          />
+        />
       )}
     </div>
   );

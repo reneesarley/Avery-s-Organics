@@ -5,11 +5,11 @@ function Months(props){
   return (
     <div>
       <h4>{props.month}</h4>
-      <ul>
+      <div className='row'>
         {props.selection.map((crop, index) =>
-          <li key={index}>{crop}</li>
+          <div className='col-3' key={index}>{crop}</div>
         )}
-      </ul>
+      </div>
     </div>
   );
 }

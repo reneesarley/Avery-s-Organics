@@ -3,13 +3,11 @@ import PropTypes from 'prop-types';
 
 function FarmersMarket(props){
   return (
-    <div>
-      <h3>{props.day}</h3>
-      <ul>
-        <li>{props.location}</li>
-        <li>{props.hours}</li>
-        <li>{props.booth}</li>
-      </ul>
+    <div className='col-sm-2'>
+      <h5>{props.day}</h5>
+      <p>{props.hours}<br/>
+        {props.location}<br/>
+      Booth: {props.booth}</p>
     </div>
   );
 }

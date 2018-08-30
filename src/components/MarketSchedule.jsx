@@ -42,16 +42,17 @@ const marketDays = [
 
 function MarketSchedule(){
   return (
-    <div className='col-sm-6'>
-      <h3>Farmer's Market Schedule</h3>
-      {marketDays.map((days, index) =>
-        <FarmersMarket day={days.day}
-          location={days.location}
-          hours={days.hours}
-          booth={days.booth}
-          key={index} />
-      )}
-      <hr/>
+    <div>
+      <h4>Weekly Farmer's Market Schedule</h4>
+      <div className='row'>
+        {marketDays.map((days, index) =>
+          <FarmersMarket day={days.day}
+            location={days.location}
+            hours={days.hours}
+            booth={days.booth}
+            key={index} />
+        )}
+      </div>
     </div>
   );
 }
